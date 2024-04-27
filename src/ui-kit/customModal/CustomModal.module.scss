@@ -1,0 +1,58 @@
+.modal {
+  :global {
+    .ant-modal-content {
+      padding: 0;
+      border-radius: 10px;
+      .ant-modal-close {
+        top: 20px;
+        .ant-modal-close-x {
+          font-size: 22px;
+          color: #7a21f5;
+        }
+      }
+    }
+    .ant-modal-header {
+      height: 60px;
+      background-color: var(--color-primary-default, #ffffff);
+      padding: 10px 24px;
+    }
+    .ant-modal-body {
+      padding: 0px 24px;
+
+      button {
+        height: 40px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+
+    .ant-modal-footer {
+      padding: 0px 20px 24px 20px;
+    }
+
+    .ant-modal-title {
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #fdc52c;
+    }
+  }
+}
+
+.subheader {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.divider {
+  :global {
+    .ant-divider {
+      .ant-divider-horizontal {
+        margin: 0 !important;
+      } 
+    }
+  }
+}

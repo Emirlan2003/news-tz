@@ -1,0 +1,24 @@
+{
+  "logo-placeholder": "ЛОГО",
+  "login": {
+    "title": "Вход",
+    "submit": "Войти",
+    "email": "Имейл",
+    "password": "Пароль"
+  },
+  "register": {
+    "title": "Регистрация",
+    "submit": "Зарегистрироваться",
+    "email": "Имейл",
+    "password": "Пароль",
+    "name": "Имя",
+    "username": "Фамилия",
+    "confirmPassword": "Подтвердить пароль",
+    "confirmEmail": "Подтвердить почту",
+    "confirmEmailModal": "Подтверждение почты",
+    "confirmCode": "Отправить код",
+    "codeValue": "Введите код",
+    "firstMessage": "Пожалуйста, введите код!",
+    "secondMessage": "Код должен состоять из 6 цифр!"
+  }
+}

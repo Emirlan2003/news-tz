@@ -1,0 +1,66 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalImage {
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.modalContent {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 25px;
+  color: rgb(140, 140, 0);
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 20px;
+  color: yellowgreen;
+  margin-bottom: 30px;
+}
+
+.tableImage {
+  object-fit: contain;
+  width: 150px;
+  height: 100px;
+}
+
+.id {
+  color: rgb(127, 163, 255);
+  font-size: 15px;
+}
+
+.name {
+  color: rgb(176, 127, 255);
+  font-size: 15px;
+}
+
+.desc2 {
+  color: rgb(255, 127, 127);
+  font-size: 15px;
+}
+
+.date {
+  color: rgb(255, 168, 127);
+  font-size: 15px;
+}
