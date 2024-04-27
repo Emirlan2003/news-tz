@@ -26,7 +26,7 @@ const columns = [
     renderCell: (params: any) => (
       // eslint-disable-next-line jsx-a11y/img-redundant-alt
       <img
-        src={params.value.thumbnail}
+        src={params.value ? params.value.thumbnail : ""}
         alt="Photo"
         className={styles.tableImage}
       />
@@ -99,7 +99,7 @@ export const Table = () => {
           <div className={styles.title}>{data && data.pillarName}</div>
           <div className={styles.name}>{data && data.sectionName}</div>
           <div className={styles.desc}>{data && data.webTitle}</div>
-          <img src={data && data.fields.thumbnail} alt="error" />
+          <img src={data && data.fields && data.fields.thumbnail} alt="error" />
         </div>
       </Modal>
     </div>
